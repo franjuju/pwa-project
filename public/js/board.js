@@ -75,6 +75,11 @@ function Board(){
         onDragStart: onDragStart,
         onDrop: onDrop,
     };
+    function preventBehavior(e) {
+        e.preventDefault(); 
+    };
+    
+    document.addEventListener("touchmove", preventBehavior, {passive: false});
 
     var board = new ChessBoard('board', cfg);
 
