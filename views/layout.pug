@@ -10,14 +10,11 @@ html
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
     //jquery
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    //serviceWorker
+    script(type="text/javascript", href='pwabuilder-sw-register.js')
     //manifest
     link(rel='manifest', href='./manifest.json')
-    //serviceWorker
-    script(type="text/javascript").
-      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
-      const el = document.createElement('pwa-update');
-      document.body.appendChild(el);
     
     // general library    
     link(rel='stylesheet', type="text/css", href='/css/style.css')
