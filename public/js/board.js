@@ -75,6 +75,16 @@ function Board(){
         onDragStart: onDragStart,
         onDrop: onDrop,
     };
+
+    const moveList = document.querySelectorAll('div.drag-handle-class');
+
+    if (moveList)
+    {
+        moveList.forEach(move =>
+        {
+            move.addEventListener('touchmove', event => event.preventDefault());
+        });
+    }
     
     function preventDragPlayingMobile () {
         function preventBehavior(e) {   
