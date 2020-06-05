@@ -69,7 +69,7 @@ function EngineGame(options){
             isEngineReady=true;
             reportEngineStatus();
         } else {
-            var match = line.match(/^bestmove ([a-h][1-8])([a-h][1-8])([qrbn])?.\bbestmoveSan ...([+]|[#])?/);
+            var match = String(line).match(/^bestmove ([a-h][1-8])([a-h][1-8])([qrbn])?.\bbestmoveSan ...([+]|[#])?/);
             console.log("match " + match);
             if(match){
                 if(match[4]=="+"){ // player is being checked
