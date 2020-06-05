@@ -82,7 +82,6 @@ function Board(){
         };
         document.addEventListener("touchmove", preventBehavior, {passive: false});
     }
-    preventDragPlayingMobile ();
     
 
     var board = new ChessBoard('board', cfg);
