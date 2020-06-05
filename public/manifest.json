@@ -4,7 +4,7 @@
     "name": "PWA Projet Chess",
     "scope": "/index",
     "display": "fullscreen",
-    "start_url": "/index",
+    "start_url": "https://pwa-project-psb.herokuapp.com/index",
     "short_name": "Chess",
     "theme_color": "transparent",
     "description": "Chess game for PSB Project",
