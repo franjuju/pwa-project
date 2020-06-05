@@ -1,0 +1,114 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "PWA Projet Chess",
+    "scope": "/index",
+    "display": "fullscreen",
+    "start_url": "/index",
+    "short_name": "Chess",
+    "theme_color": "transparent",
+    "description": "Chess game for PSB Project",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/bad31bac-89b6-173c-4c99-433c7e8c630f.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5a2b61a9-00ff-54bd-bd73-b99378ab1e0b.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6e617cb1-6d0a-9a12-e3d5-a41ace50a832.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/cfc50989-5f15-1f4c-7929-20f0ca4b4852.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d73e1e86-0c90-e9b6-ef2e-1a843f10b434.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/96dbc2a7-f88e-cf13-cc7e-90cf90c0cb8c.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/46597dd0-b7d1-083a-3e7b-581b189f76e2.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/761dafde-d65a-a205-4046-631146339a7b.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/fde70cb3-5621-a1a7-3a4e-f529ee2d9e5a.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/88dc5266-848d-961f-d4ac-ed4c29956430.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d9e2b168-c77b-e6c6-46b0-78bc3a26f539.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1805d5d2-c232-450f-4c6a-4f4bd3b79d40.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7d543bde-5939-706b-d07c-412ebb1f0bb2.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/74841ff7-7fcc-21e8-ca25-05097884d4d6.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4ffbff8a-5a81-0b9f-49a7-e2aa6d09e254.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d1bec34d-669c-afc5-b62e-cf155f87afb7.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ca31a37d-59e3-b93b-ba74-716598ffd48c.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b14d1ff4-c457-0e89-2982-126f8b34361a.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8ac37ff9-c2f5-19e2-e124-d5fd666a4585.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "url": "https://pwa-project-psb.herokuapp.com/index",
+    "screenshots": []
+}
