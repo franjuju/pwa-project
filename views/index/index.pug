@@ -18,22 +18,22 @@ block includestyle
     include ./style.pug
 block menu
     div(class='container-fluid')
-        h2(style="text-align:center;") Chess.io
+        h2(style="text-align:center;") PSB Echiquier
 
         div(class="row")
-                button(id="newGameButton" class="btn btn-primary") New Game
+                button(id="newGameButton" class="btn btn-primary") Nouvelle partie
         div(class='row' style="margin-top:20px; margin-bottom:20px;")
                 form(id="nameForm" method="" )
-                    label Enter Your Name
+                    label Entrer votre pseudo
                     input(id="nameInput" class="chat-box" type="text")
                     span
-                        button(class="btn btn-primary" type='submit') Enter Name
+                        button(class="btn btn-primary" type='submit') Enregistrer
         div(class='row')
             form(id="joinGame" method="" )
-                label Enter Host Name
+                label Entrer le nom de l'hôte
                 input(id="hostName" class="chat-box" type="text")
                 span
-                    button(class="btn btn-primary" type='submit') Join Host
+                    button(class="btn btn-primary" type='submit') Rejoindre
 
 block content
     div(class="container-fluid")
@@ -56,7 +56,7 @@ block chat
             form(id="chatBox" method="" )
                 input(id="chat" class="chat-box" type="text")
                 span
-                    button(class="btn btn-primary" type='submit') Send
+                    button(class="btn btn-primary" type='submit') Envoyer
 
         div(class="jumbotron jumbotron-fluid " style="text-align:center; margin-top:20px;padding-top:10px;padding-bottom:10px")
             div(class="container")
